@@ -1,0 +1,74 @@
+.brand-logo {
+    margin-left: 15px;
+}
+
+nav a.button-collapse  {
+    display: inline;
+}
+
+.small-heading {
+    font-size: small;
+}
+
+.hr {
+    height: 1px;
+}
+
+.price {
+    font-size: xx-large;
+}
+
+.currecy_bg {
+    padding-top: 120px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.currency_bg_bch {
+    background-image: url(/images/bch.jpg);
+}
+.currency_bg_btc {
+    background-image: url(/images/btc.jpg);
+}
+.currency_bg_dash {
+    background-image: url(/images/dsh.jpg);
+}
+.currency_bg_etc {
+    background-image: url(/images/Ethereum-Classic.jpg);
+}
+.currency_bg_eth {
+    background-image: url(/images/Ethereum.jpg);
+}
+.currency_bg_iota {
+    background-image: url(/images/IOTA.jpg);
+}
+.currency_bg_ltc {
+    background-image: url(/images/Litecoin.jpg);
+}
+.currency_bg_Omisego {
+    background-image: url(/images/Omisego.jpg);
+}
+.currency_bg_xpr {
+    background-image: url(/images/ripp.jpg);
+}
+.currency_bg_zch {
+    background-image: url(/images/Z-cash.jpg);
+}
+
+
+.cardoverlay {
+    background: rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#FF000000', GradientType=0 );
+}
+
+.currency_image {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Whale</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+    
+    <nav>
+    <div class="nav-wrapper blue-grey lighten-1">
+        <div><a href="#" data-activates="slide-out" class="button-collapse brand-logo"><i class="material-icons">menu</i></a></div>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/export" target="_blank"><i class="material-icons">import_export</i></a></li>
+        <li><a href="#"><i class="material-icons" id="connection_status">sync_problems</i></a></li>
+      </ul>
+    </div>
+  </nav>
+<ul id="slide-out" class="side-nav">
+    <li><a href="#!"><i class="material-icons">alarm_on</i>Alerts</a></li>
+    <li><a href="#!"><i class="material-icons">add</i>Add Currency</a></li>
+    <li><div class="divider"></div></li>
+  </ul>
+    
+  <div class="row">
+
+      <table class="striped highlight" id="rates">
+          <tr>
+                <th>Currency</th>
+                <th>Price</th>
+          </tr>
+      </table>
+</div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="/js/sockjs.min.js"></script>
+    <script src="/js/stomp.min.js"></script>
+    <script src="/js/site.js"></script>
+</body>
+</html>

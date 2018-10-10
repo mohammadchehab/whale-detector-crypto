@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+ADD target/whale-detector-1.0.0.jar app.jar
+ENTRYPOINT ["java", "-Dspring.ar.port=80", "-Djava.security.egd=file:/dev/./urandom","-jar","app.jar"]dta.mongodb.uri=mongodb://mongo/whaledb", "-Dserve

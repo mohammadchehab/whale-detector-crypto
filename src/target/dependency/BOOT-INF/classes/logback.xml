@@ -1,0 +1,20 @@
+<configuration>
+    <logger name="org.apache" level="WARN" />
+    <logger name="httpclient" level="WARN" />
+    <logger name="whale-detector" level="ALL"/>
+    <logger name="httpclient" level="WARN" />
+    <logger name="org.apache" level="WARN" />
+    <logger name="org.hibernate" level="WARN" />
+    <logger name="org.hibernate.cfg.AnnotationBinder" level="WARN" />
+    <logger name="org.hibernate.cfg.annotations" level="WARN" />
+    <logger name="org.quartz" level="WARN" />
+    <logger name="org.springframework" level="WARN" />
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%-16thread] %-5level %-35.35logger{30} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="${log.level:-INFO}">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

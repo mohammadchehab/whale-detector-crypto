@@ -1,0 +1,19 @@
+server:
+  port: 8002
+
+spring:
+
+  data:
+    mongo:
+      repositories:
+        enabled: true
+        type : auto
+      uri : mongodb://localhost/whaledb
+      database: whaledb
+      port: 27017
+
+  rabbitmq:
+   host: 127.0.0.1
+   port: 5672
+   username: guest
+   password: guest
